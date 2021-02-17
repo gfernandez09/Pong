@@ -157,7 +157,7 @@ public class Pong extends Application {
                         contadorJugIzq++;
                         textoContador.setText(contadorJugIzq + "-" + contadorJugDret);
                         try {
-                            Thread.sleep(500);
+                            Thread.sleep(200);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -169,7 +169,7 @@ public class Pong extends Application {
                         contadorJugDret++;
                         textoContador.setText(contadorJugIzq + "-" + contadorJugDret);
                         try {
-                            Thread.sleep(500);
+                            Thread.sleep(200);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -195,7 +195,6 @@ public class Pong extends Application {
         });
 
     }
-
     private void juego() {
         /* Creamos la Bola y la asignamos al centro del panel*/
         int radi=8;
